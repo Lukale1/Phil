@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    line-height: 1.5;
+    font-family: sans-serif;
+    justify-content: center;
+    align-items: center;
+    background: white;
+}
+
+.container{
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.navbar{
+    width: 1400px;
+    height: 100px;
+}
+
+.icon{
+    width: 1400px;
+    float: left;
+}
+
+.logo{
+    margin-bottom: 20px;
+    float: left;
+    /* text-transform: uppercase; */
+    font-size: 30px;
+    font-weight: bold;
+    /* background: grey; */
+
+}
+
+.menu{
+    width: 850px;
+    margin-left: 300px;
+}
+
+.search{
+    float: right;
+    display: grid;
+    gap: 3.5rem;
+}
+
+ul{
+    display: flex;
+    gap: 4.5rem;
+    float: left;
+    margin-left: 250px;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    margin-top: 5px;
+    /* text-transform: uppercase; */
+    font-size: 18px;
+    font-weight: bold;
+    /* background: lightblue; */
+    list-style: none;
+}
+
+ul li a{
+    margin-top: 5px;
+    text-decoration: underline;
+}
+
+ul li a:hover{
+    color: green;
+}
+
+
+.all{
+    margin-top: 20px;
+    display: flex;
+    border: 150px solid green;
+    border-radius: 15px;
+    width: 1000px;
+}
+
+
+.words{
+    font-size: 26px;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 50px;
+}
+
+.w{
+    font-size: 26px;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 50px;
+}
+
+.promo{
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 50px;
+}
+
+.N{
+    text-decoration: underline;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.img{
+    float: left;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.t-grid{
+display: grid;
+gap: 2.5rem;
+grid-template-columns: repeat(4, 1fr);
+}
+
+.s{
+    margin-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: pink;
+    margin-bottom: 20px;
+}
+
+.one{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+    color: pink;
+}
+
+.f{
+    text-align: center;
+    margin-top: 2200px;
+    display: flex;
+    gap: 5rem;
+}
+
+.c{
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* .sote{
+    border: 50px solid  beige;
+    width: 100%;
+} *
